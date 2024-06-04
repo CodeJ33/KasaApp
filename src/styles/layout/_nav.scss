@@ -1,0 +1,56 @@
+/* Styles par défaut (moins de 769px) */
+.nav-header {
+    display: grid;
+    display: inline;
+    grid-column: 4;
+    margin-top: 25px;
+}
+
+.nav-header__link-home,
+.nav-header__link-about {
+    padding: 44px 5px 40px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-header__link-home:hover,
+.nav-header__link-about:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+/* Styles pour les écrans plus larges (769px et plus) */
+@media screen and (min-width: 769px) {
+    .nav-header {
+        display: grid;
+        display: inline;
+        grid-column: 4;
+        margin-top: 25px;
+    }
+
+    .nav-header__link-home {
+        padding: 44px 40px 0 40px;
+        text-decoration: none;
+        color: #000000;
+        font-size: 24px;
+        text-transform: none;
+        /* Supprime les majuscules */
+    }
+
+    .nav-header__link-about {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        text-transform: none;
+        /* Supprime les majuscules */
+    }
+
+    .nav-header__link-home:hover,
+    .nav-header__link-about:hover {
+        text-decoration: underline;
+        color: #000000;
+    }
+}

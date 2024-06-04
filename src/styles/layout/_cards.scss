@@ -1,0 +1,168 @@
+.card-section {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 60px;
+    row-gap: 0;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+
+.card {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 255px;
+}
+
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, .5));
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+
+.card-logement img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+
+
+.card-logement__title {
+    bottom: 0;
+    box-sizing: inherit;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+    margin: 15px 20px;
+    position: absolute;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: #f2f2f2;
+        padding: 50px;
+        column-gap: 60px;
+        row-gap: 40px;
+        border-radius: 25px;
+        margin-top: 40px;
+    }
+
+    .card {
+        width: 100%;
+        height: 340px;
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .card-logement img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+        border-radius: inherit;
+    }
+
+    .card-logement__title {
+        position: absolute;
+        bottom: 0;
+        color: #f2f2f2;
+        font-size: 18px;
+        line-height: 142.6%;
+        margin: 15px 20px;
+    }
+
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, .5));
+        mix-blend-mode: multiply;
+        pointer-events: none;
+        border-radius: 10px;
+
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) {
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #f2f2f2;
+        padding: 50px;
+        column-gap: 60px;
+        row-gap: 40px;
+        border-radius: 25px;
+        margin-top: 40px;
+    }
+
+
+    .card {
+        width: 100%;
+        height: 340px;
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .card-logement img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+        border-radius: inherit;
+    }
+
+    .card-logement__title {
+        bottom: 0;
+        box-sizing: inherit;
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+        margin: 15px 20px;
+        position: absolute;
+    }
+
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), rgba(0, 0, 0, .5));
+        ;
+        mix-blend-mode: multiply;
+        pointer-events: none;
+        border-radius: 10px;
+        ;
+
+    }
+}

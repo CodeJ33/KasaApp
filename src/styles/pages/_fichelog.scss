@@ -1,0 +1,296 @@
+.sliderContainer {
+    height: 414px;
+    display: flex;
+    position: relative;
+    margin: 2% 0;
+    display: flex;
+    width: 100%;
+}
+
+
+.slideImg {
+    border-radius: 10px;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+.fichelogContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hostContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: inherit;
+}
+
+
+.fa-chevron-left {
+    content: "\f053";
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    z-index: 100;
+    bottom: 167px;
+    cursor: pointer;
+    padding-left: 22px;
+}
+
+.fa-chevron-right {
+    width: 47px;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    z-index: 100;
+    bottom: 167px;
+    cursor: pointer;
+    right: 0;
+}
+
+.fichelogContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fichelogContainerText h1 {
+    color: #ff6060;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+
+.ficheTextlocation {
+    padding: 60px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+.slide__num {
+    align-content: center;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    left: 48%;
+    line-height: 142.6%;
+    position: absolute;
+    top: 86%;
+}
+
+
+
+
+
+.hostName {
+    color: #ff6060;
+    width: 30%;
+    padding-right: 10px;
+}
+
+
+.hostImg {
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+}
+
+.tagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+}
+
+.tagsDiv {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.tagsDiv__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff6060;
+    border-radius: 15px;
+    color: #fff;
+    padding: 2px 10px 0;
+}
+
+.fullStar {
+    color: #ff6060;
+
+}
+
+.emptyStar {
+    color: #ccc;
+}
+
+.ratingDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+
+.fa-star::before {
+    padding-right: 10px;
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+
+
+    .sliderContainer {
+        height: 414px;
+        display: flex;
+        position: relative;
+        margin: 2% 0;
+        display: flex;
+        width: 100%;
+    }
+
+    .slideImg {
+        border-radius: 10px;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        object-fit: cover;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .fa-chevron-left {
+        content: "\f053";
+        color: #fff;
+        font-size: 56px;
+        position: absolute;
+        z-index: 100;
+        bottom: 167px;
+        cursor: pointer;
+        padding-left: 22px;
+    }
+
+    .fa-chevron-right {
+        width: 47px;
+        color: #fff;
+        font-size: 56px;
+        position: absolute;
+        z-index: 100;
+        bottom: 167px;
+        cursor: pointer;
+        right: 0;
+        padding-right: 22px;
+    }
+
+    .fichelogContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .fichelogContainerText h1 {
+        color: #ff6060;
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0 0 5px;
+    }
+
+    .ficheTextlocation {
+        padding: 60px 0;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+
+
+    .slide__num {
+        align-content: center;
+        color: #fff;
+        display: block;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        left: 48%;
+        line-height: 142.6%;
+        position: absolute;
+        top: 86%;
+    }
+
+
+    .hostContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hostInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .hostName {
+        color: #ff6060;
+        width: 30%;
+        padding-right: 10px;
+    }
+
+
+    .hostImg {
+        border-radius: 50px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .tagsContainer {
+        display: flex;
+        margin: 20px 0 0 0;
+    }
+
+    .tagsDiv {
+        margin-right: 10px;
+    }
+
+    .tagsDiv__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ff6060;
+        border-radius: 15px;
+        color: #fff;
+        padding: 2px 10px 0;
+    }
+
+    .fullStar {
+        color: #ff6060;
+    }
+
+    .emptyStar {
+        color: #ccc;
+    }
+
+    .ratingDiv {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+}
